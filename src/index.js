@@ -13,7 +13,6 @@ import Header from './containers/Header';
 
 ReactDOM.render(
     <BrowserRouter>
-        <Header/>
         <Switch>
             <Route exact path="/" component={App} />
             <Route exact path="/login" component={LoginPage} />

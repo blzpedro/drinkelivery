@@ -1,0 +1,29 @@
+.imgLogo{
+    margin: 0 auto 0 auto;
+    display: block;
+    z-index: 1;
+}
+
+.btnPecaAgora{
+    width: 250px;
+    padding: 14px 30px;
+    border-radius: 10px;
+    transition: .7s all;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-weight: bold;
+    color: white;  
+    background: orange url('../../assets/beer-outline.png') 10px 10px no-repeat;
+    background-size: 32px;        
+    background-position-x: 10px;
+    background-position-y: 7px;
+    position: relative;
+    bottom: 200px;
+}
+
+.btnPecaAgora:hover{
+    background-size: 36px;     
+    background-position-x: 10px;
+    background-position-y: 5px;
+}
